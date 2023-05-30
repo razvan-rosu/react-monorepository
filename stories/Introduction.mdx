@@ -1,0 +1,28 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Welcome" />
+
+# ReactJS mono-repository
+
+Tech Stack:
+- workspaces
+- ReactJS 18
+- StorybookJS 7
+- TailwindCSS 3
+- ESlint, Prettier, Editorconfig
+
+Ever thought of decoupling your components from your project?
+Maybe you want to keep track of their evolution, or maybe to share them between projects.
+If so, you're in the right place as this project is a boilerplate for a ReactJS component library.
+
+Being a mono-repository, each component is versioned (in each component folder you'll find a `package.json` and `CHANGELOG.md` file).
+With some additional tooling, StorybookJS, we can preview each component and in every state.
+
+Since you will want to develop your own components, TailwindCSS will come in hand to style your components with minimum impact on the file size.
+For code quality, the following tools are available: eslint, prettier and editorconfig.
+
+### Install the project:
+> npm i
+
+### Run the project:
+> npm run storybook
